@@ -5,8 +5,7 @@ const router = Router();
 
 router.get('/dogs', getAllDogs)
 router.get('/dogs/:idRaza', getDogById)
-router.get('/dogs/name',createdDogs)
-
+router.post('/dogs',createdDogs)
 
 
 module.exports = router;
