@@ -77,7 +77,7 @@ const createdDogs = async(req, res) => {
     });
 
     newDog.addTemperament(dogsDb);
-    res.status(200).send(newDog);
+    res.status(200).json(newDog);
  
   } catch (error) {
     console.error(error);
